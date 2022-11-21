@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left,
+.right {
+    width: 600px;
+    height: 782px;
+}
+
+.left {
+    background: url('../css/img/left.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient('rgba(0, 0, 0, 0.3)');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-text {
+    width: 325px;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+
+.left-text h2:hover {
+    color: #1E90FF;
+}
+.right-info h2:active{
+    color: #1E90FF;
+} 
+.left-text h1 {
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+}
+
+.left-text h1:active {
+    opacity: .8;
+}
+.right {
+    padding: 54px;
+}
+.title {
+    font-family: 'Bebas Neue';
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 2px;
+    color: #222222;
+    margin-bottom: 24px;
+}
+.right hr{
+    margin-bottom: 24px;
+}
+.right-content {
+    display: flex;
+    margin-bottom: 10px;
+}
+.right-content>img {
+    width: 160px;
+    height: 90px;
+}
+.right-info {
+    padding: 16px;
+}
+.right-info h2 {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    color: #222222;
+    margin-bottom: 4px;
+}
+.clock {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.clock img {
+    width: 16px;
+    height: 16px;
+}
+.clock span {
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #8888;
+}
+.clocks{
+    display: flex;
+    gap: 24px;
+}
+.btn {
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    background: #1E90FF;
+    border-radius: 4px;
+    padding: 12px 0;
+    width: 100%;
+    border: none;
+}
+.btn:active{
+    background: #1E90FF
+}
